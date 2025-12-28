@@ -38,6 +38,7 @@ export default function AppDetails() {
   return (
     <div className="px-20 py-10 bg-[#F5F5F5]">
       {/* ================= HEADER ================= */}
+      {/* <div className="grid md:grid-cols-2 items-center border-b border-gray-300 pb-10"> */}
       <div className="grid md:grid-cols-2 items-center border-b border-gray-300 pb-10">
         {/* App Image */}
         <img

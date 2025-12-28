@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
 import toast from "react-hot-toast";
 import { removeApp } from "../utils/localStorage";
-// import { MdOutlineFileDownload } from "react-icons/md";
-// import { FaStar } from "react-icons/fa";
+import { MdOutlineFileDownload } from "react-icons/md";
+import { FaStar } from "react-icons/fa";
 
 export default function MyInstallation() {
   const [installedApps, setInstalledApps] = useState([]);
@@ -86,8 +86,13 @@ export default function MyInstallation() {
                   {app.title}
                 </h3>
 
-                <p className="text-sm text-gray-500 mt-1 gap-3">
+                {/* <p className="text-sm text-gray-500 mt-1 gap-3">
                   ⭐ {app.ratingAvg}   ⬇ {app.downloads / 1_000_000}M  📦 {app.size} MB
+                </p> */}
+                <p className="flex text-sm text-gray-500 mt-1 gap-3">
+                 <span className="flex items-center gap-1"><FaStar className="text-amber-500 "/>  {app.ratingAvg} </span>   
+                 <span className="flex items-center gap-1"><MdOutlineFileDownload className="text-green-500 "/> {app.downloads / 1_000_000}M </span>
+                <span>{app.size} MB</span>
                 </p>
 
               </div>
