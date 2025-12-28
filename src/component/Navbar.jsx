@@ -1,68 +1,93 @@
-import React from 'react'
-import { NavLink } from 'react-router-dom'
-import logo from '../assets/logo.png'
-import { FaGithub } from "react-icons/fa";
+import React, { useState } from "react";
+import { NavLink } from "react-router-dom";
+import logo from "../assets/logo.png";
+import { FaGithub, FaBars, FaTimes } from "react-icons/fa";
 
 export default function Navbar() {
-    return (
-        <header className="w-full bg-white shadow mx-0">
-            <div className="max-w-7xl mx-auto flex justify-between items-center px-8  py-4">
+  const [open, setOpen] = useState(false);
 
-                {/* Logo */}
-                <NavLink to="/" className="flex items-center gap-2">
-                    <img
-                        src={logo}
-                        alt="Hero.IO Logo"
-                        className="w-8 h-8"
-                    />
-                    <span className="text-xl font-bold text-purple-600">
-                        HERO.IO
-                    </span>
-                </NavLink>
+  const linkClass = ({ isActive }) =>
+    `text-xl font-semibold ${
+      isActive ? "text-purple-600" : "text-gray-700"
+    }`;
 
-                {/* Navigation */}
-                <nav className="flex gap-6 font-medium">
-                    <NavLink
-                        to="/"
-                        className={({ isActive }) =>
-                            isActive ? "text-purple-600 border-b-2 " : "text-gray-600 underline-offset-0"
-                        }
-                    >
-                        Home
-                    </NavLink>
+  return (
+    <>
+      {/* NAVBAR */}
+      <header className="w-full bg-white shadow relative z-50">
+        <div className="max-w-7xl mx-auto flex justify-between items-center px-6 py-4">
 
-                    <NavLink
-                        to="/all-apps"
-                        className={({ isActive }) =>
-                            isActive ? "text-purple-600 border-b-2" : "text-gray-600"
-                        }
-                    >
-                        Apps
-                    </NavLink>
+          {/* Logo */}
+          <NavLink to="/" className="flex items-center gap-2">
+            <img src={logo} alt="Hero.IO Logo" className="w-8 h-8" />
+            <span className="text-xl font-bold text-purple-600">
+              HERO.IO
+            </span>
+          </NavLink>
 
-                    <NavLink
-                        to="/installation"
-                        className={({ isActive }) =>
-                            isActive ? "text-purple-600 border-b-2" : "text-gray-600"
-                        }
-                    >
-                        Installation
-                    </NavLink>
-                </nav>
+          {/* Desktop Menu */}
+          <nav className="hidden md:flex gap-8 font-medium">
+            <NavLink to="/" className={linkClass}>Home</NavLink>
+            <NavLink to="/all-apps" className={linkClass}>Apps</NavLink>
+            <NavLink to="/installation" className={linkClass}>Installation</NavLink>
+          </nav>
 
-                {/* Contribute Button */}
-                <a
-                    href="https://github.com/shehad-404"
-                    target="_blank"
-                    rel="noreferrer"
-                    className="flex items-center gap-2 bg-purple-600 text-white px-4 py-2 rounded-md hover:bg-purple-700 transition"
-                >
-                    <FaGithub className="text-lg" />
-                    Contribute
-                </a>
+          {/* Desktop Button */}
+          <a
+            href="https://github.com/shehad-404"
+            target="_blank"
+            rel="noreferrer"
+            className="hidden md:flex items-center gap-2 bg-purple-600 text-white px-4 py-2 rounded-md hover:bg-purple-700 transition"
+          >
+            <FaGithub />
+            Contribute
+          </a>
 
+          {/* Mobile Toggle */}
+          <button
+            className="md:hidden text-2xl text-gray-700"
+            onClick={() => setOpen(true)}
+          >
+            <FaBars />
+          </button>
+        </div>
+      </header>
 
-            </div>
-        </header>
-    )
+      {/* MOBILE FULLSCREEN MENU */}
+      {open && (
+        <div className="fixed inset-0 bg-white flex flex-col items-center justify-center gap-8 z-50">
+
+          {/* Close Button */}
+          <button
+            className="absolute top-6 right-6 text-3xl text-gray-700"
+            onClick={() => setOpen(false)}
+          >
+            <FaTimes />
+          </button>
+
+          <NavLink onClick={() => setOpen(false)} to="/" className={linkClass}>
+            Home
+          </NavLink>
+
+          <NavLink onClick={() => setOpen(false)} to="/all-apps" className={linkClass}>
+            Apps
+          </NavLink>
+
+          <NavLink onClick={() => setOpen(false)} to="/installation" className={linkClass}>
+            Installation
+          </NavLink>
+
+          <a
+            href="https://github.com/shehad-404"
+            target="_blank"
+            rel="noreferrer"
+            className="flex items-center gap-2 bg-purple-600 text-white px-6 py-3 rounded-md hover:bg-purple-700 transition mt-6"
+          >
+            <FaGithub />
+            Contribute
+          </a>
+        </div>
+      )}
+    </>
+  );
 }
