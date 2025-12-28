@@ -8,7 +8,7 @@ export default function Navbar() {
 
   const linkClass = ({ isActive }) =>
     `text-xl font-semibold ${
-      isActive ? "text-purple-600" : "text-gray-700"
+      isActive ? "text-purple-600 border-b-2 border-purple-500" : "text-gray-700"
     }`;
 
   return (
@@ -26,7 +26,7 @@ export default function Navbar() {
           </NavLink>
 
           {/* Desktop Menu */}
-          <nav className="hidden md:flex gap-8 font-medium">
+          <nav className="hidden md:flex gap-8 font-medium ">
             <NavLink to="/" className={linkClass}>Home</NavLink>
             <NavLink to="/all-apps" className={linkClass}>Apps</NavLink>
             <NavLink to="/installation" className={linkClass}>Installation</NavLink>

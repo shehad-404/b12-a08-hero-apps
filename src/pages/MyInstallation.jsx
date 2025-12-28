@@ -72,23 +72,23 @@ export default function MyInstallation() {
         {sortedApps.map(app => (
           <div
             key={app.id}
-            className="flex gap-20 justify-between shadow rounded-xl p-4 hover:shadow-lg transition bg-white"
+            className="flex flex-col md:flex-row md:gap-20 justify-between shadow md:rounded-xl p-4 hover:shadow-lg transition bg-white"
           >
             <div className="grid grid-cols-2">
               <img
                 src={app.image}
                 alt={app.title}
-                className="h-20 w-20 object-cover rounded-lg"
+                className="md:h-20 md:w-20 h-30 w-30 object-cover rounded-lg"
               />
 
               <div>
                 <h3 className="text-left mt-3 font-semibold text-lg text-purple-600">
                   {app.title}
                 </h3>
-                <p className="flex text-sm text-gray-500 mt-1 gap-3">
+                <p className="flex flex-col md:flex-row text-sm text-gray-500 mt-1 md:gap-3 gap-2">
                   <span className="flex items-center gap-1"><FaStar className="text-amber-500 " />  {app.ratingAvg} </span>
                   <span className="flex items-center gap-1"><MdOutlineFileDownload className="text-green-500 " /> {app.downloads / 1_000_000}M </span>
-                  <span>{app.size} MB</span>
+                  <span className="text-left">{app.size} MB</span>
                 </p>
 
               </div>

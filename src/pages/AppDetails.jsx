@@ -37,9 +37,8 @@ export default function AppDetails() {
 
   return (
     <div className="px-20 py-10 bg-[#F5F5F5]">
-      {/* ================= HEADER ================= */}
-      {/* <div className="grid md:grid-cols-2 items-center border-b border-gray-300 pb-10"> */}
-      <div className="flex flex-2 justify-baseline gap-10 items-center border-b border-gray-300 pb-10">
+      {/* ================= App Details ================= */}
+      <div className=" flex flex-col md:flex-row items-center text-center md:text-left gap-6 md:gap-10 border-b  border-gray-300 pb-10">
         {/* App Image */}
         <img
           src={app.image}
@@ -60,17 +59,17 @@ export default function AppDetails() {
           {/* Stats */}
           <div className="flex gap-10 mt-6">
             <div>
-            <MdOutlineFileDownload className="text-green-500 text-4xl"/>
+              <MdOutlineFileDownload className="text-green-500 text-4xl" />
               <p className="text-gray-500 text-sm py-1">Downloads</p>
               <p className="font-bold text-3xl">{app.downloads / 1_000_000}M</p>
             </div>
             <div>
-            <FaStar className="text-amber-500 text-4xl"/>
+              <FaStar className="text-amber-500 text-4xl" />
               <p className="text-gray-500 text-sm py-1">Average Ratings</p>
               <p className="font-bold text-3xl">{app.ratingAvg}</p>
             </div>
             <div>
-            <GrLike className="text-purple-500 text-4xl"/>
+              <GrLike className="text-purple-500 text-4xl" />
               <p className="text-gray-500 text-sm py-1">Total Reviews</p>
               <p className="font-bold text-3xl">{app.reviews / 1_00_000}K</p>
             </div>
@@ -80,11 +79,10 @@ export default function AppDetails() {
           <button
             onClick={handleInstall}
             disabled={installed}
-            className={` cursor-pointer mt-6 px-6 py-3 rounded text-white font-medium transition ${
-              installed
-                ? "bg-gray-400 cursor-not-allowed"
-                : "bg-green-500 hover:bg-green-600"
-            }`}
+            className={` cursor-pointer mt-6 px-6 py-3 rounded text-white font-medium transition ${installed
+              ? "bg-gray-400 cursor-not-allowed"
+              : "bg-green-500 hover:bg-green-600"
+              }`}
           >
             {installed ? "Installed" : `Install Now (${app.size} MB)`}
           </button>
