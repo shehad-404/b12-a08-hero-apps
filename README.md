@@ -1,16 +1,58 @@
-# React + Vite
+# 📱 AppVerse – Modern App Store Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📖 Description
+**AppVerse** is a responsive modern app store platform built using **React**.  
+The application allows users to explore apps, view app details, install and uninstall apps using localStorage, and manage their installed applications.  
+It provides a smooth user experience with live search, loading animations, interactive charts, and toast notifications.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Technologies Used
+- **React JS**
+- **React Router DOM**
+- **Tailwind CSS**
+- **Recharts**
+- **React Hot Toast**
+- **LocalStorage API**
+- **JavaScript (ES6+)**
+- **Vite**
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🧱 Layout & Data Design
 
-## Expanding the ESLint configuration
+### 🔹 Header
+- Logo navigates to **Home Page**
+- Navigation links:
+  - Home
+  - Apps
+  - Installation
+- Active route indication
+- Contribution button linking to GitHub profile
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 🔹 Footer
+- Custom designed footer with creative layout and styling
+
+### 🔹 Data
+- App data stored as a **JSON array (12–20 objects)**
+- Each app object follows this structure:
+
+```js
+{
+  image: string,
+  title: string,
+  companyName: string,
+  id: number,
+  description: string,
+  size: number,
+  reviews: number,
+  ratingAvg: number,
+  downloads: number,
+  ratings: [
+    { name: "1 star", count: number },
+    { name: "2 star", count: number },
+    { name: "3 star", count: number },
+    { name: "4 star", count: number },
+    { name: "5 star", count: number }
+  ]
+}
