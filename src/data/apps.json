@@ -1,0 +1,363 @@
+[
+  {
+    "id": 1,
+    "title": "Forest Focus",
+    "companyName": "Hero.IO",
+    "image": "https://picsum.photos/seed/forest-focus/300/300",
+    "description": "This focus app takes the proven Pomodoro technique and makes it even more practical for modern lifestyles. Instead of just setting a timer, it builds a complete environment for deep work, minimizing distractions and maximizing concentration. Users can create custom work and break intervals, track how many sessions they complete each day, and review detailed statistics about their focus habits over time. The design is minimal and calming, reducing cognitive load so you can focus entirely on the task at hand. Notifications gently let you know when to pause and when to resume, helping you maintain a healthy rhythm between work and rest.",
+    "size": 32,
+    "reviews": 906000,
+    "ratingAvg": 4.8,
+    "downloads": 9000000,
+    "ratings": [
+      { "name": "1 star", "count": 10 },
+      { "name": "2 star", "count": 20 },
+      { "name": "3 star", "count": 100 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 900 }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Task Hero",
+    "companyName": "Hero.IO",
+    "image": "https://picsum.photos/seed/task-hero/300/300",
+    "description": "Organize daily tasks and boost productivity. This focus app takes the proven Pomodoro technique and makes it even more practical for modern lifestyles. Instead of just setting a timer, it builds a complete environment for deep work, minimizing distractions and maximizing concentration. Users can create custom work and break intervals, track how many sessions they complete each day, and review detailed statistics about their focus habits over time. The design is minimal and calming, reducing cognitive load so you can focus entirely on the task at hand. Notifications gently let you know when to pause and when to resume, helping you maintain a healthy rhythm between work and rest.",
+    "size": 28,
+    "reviews": 450000,
+    "ratingAvg": 4.6,
+    "downloads": 5200000,
+    "ratings": [
+      { "name": "1 star", "count": 15 },
+      { "name": "2 star", "count": 35 },
+      { "name": "3 star", "count": 120 },
+      { "name": "4 star", "count": 380 },
+      { "name": "5 star", "count": 750 }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Mind Calm",
+    "companyName": "Hero.IO",
+    "image": "https://picsum.photos/seed/mind-calm/300/300",
+    "description": "Meditation and breathing exercises for mental peace. This focus app takes the proven Pomodoro technique and makes it even more practical for modern lifestyles. Instead of just setting a timer, it builds a complete environment for deep work, minimizing distractions and maximizing concentration. Users can create custom work and break intervals, track how many sessions they complete each day, and review detailed statistics about their focus habits over time. The design is minimal and calming, reducing cognitive load so you can focus entirely on the task at hand. Notifications gently let you know when to pause and when to resume, helping you maintain a healthy rhythm between work and rest.",
+    "size": 40,
+    "reviews": 780000,
+    "ratingAvg": 4.9,
+    "downloads": 8500000,
+    "ratings": [
+      { "name": "1 star", "count": 5 },
+      { "name": "2 star", "count": 15 },
+      { "name": "3 star", "count": 80 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 1100 }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Note Master",
+    "companyName": "Hero.IO",
+    "image": "https://picsum.photos/seed/note-master/300/300",
+    "description": "Take smart notes and sync across devices. This focus app takes the proven Pomodoro technique and makes it even more practical for modern lifestyles. Instead of just setting a timer, it builds a complete environment for deep work, minimizing distractions and maximizing concentration. Users can create custom work and break intervals, track how many sessions they complete each day, and review detailed statistics about their focus habits over time. The design is minimal and calming, reducing cognitive load so you can focus entirely on the task at hand. Notifications gently let you know when to pause and when to resume, helping you maintain a healthy rhythm between work and rest.",
+    "size": 25,
+    "reviews": 320000,
+    "ratingAvg": 4.5,
+    "downloads": 4100000,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 40 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 420 },
+      { "name": "5 star", "count": 600 }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Fit Tracker",
+    "companyName": "Hero.IO",
+    "image": "https://picsum.photos/seed/fit-tracker/300/300",
+    "description": "Track workouts, steps, and calories easily. This focus app takes the proven Pomodoro technique and makes it even more practical for modern lifestyles. Instead of just setting a timer, it builds a complete environment for deep work, minimizing distractions and maximizing concentration. Users can create custom work and break intervals, track how many sessions they complete each day, and review detailed statistics about their focus habits over time. The design is minimal and calming, reducing cognitive load so you can focus entirely on the task at hand. Notifications gently let you know when to pause and when to resume, helping you maintain a healthy rhythm between work and rest.",
+    "size": 36,
+    "reviews": 610000,
+    "ratingAvg": 4.7,
+    "downloads": 6700000,
+    "ratings": [
+      { "name": "1 star", "count": 12 },
+      { "name": "2 star", "count": 30 },
+      { "name": "3 star", "count": 140 },
+      { "name": "4 star", "count": 450 },
+      { "name": "5 star", "count": 850 }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Sleep Zen",
+    "companyName": "Hero.IO",
+    "image": "https://picsum.photos/seed/sleep-zen/300/300",
+    "description": "Relaxing sounds and sleep tracking. This focus app takes the proven Pomodoro technique and makes it even more practical for modern lifestyles. Instead of just setting a timer, it builds a complete environment for deep work, minimizing distractions and maximizing concentration. Users can create custom work and break intervals, track how many sessions they complete each day, and review detailed statistics about their focus habits over time. The design is minimal and calming, reducing cognitive load so you can focus entirely on the task at hand. Notifications gently let you know when to pause and when to resume, helping you maintain a healthy rhythm between work and rest.",
+    "size": 45,
+    "reviews": 500000,
+    "ratingAvg": 4.8,
+    "downloads": 6000000,
+    "ratings": [
+      { "name": "1 star", "count": 8 },
+      { "name": "2 star", "count": 18 },
+      { "name": "3 star", "count": 90 },
+      { "name": "4 star", "count": 350 },
+      { "name": "5 star", "count": 900 }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Money Wise",
+    "companyName": "Hero.IO",
+    "image": "https://picsum.photos/seed/money-wise/300/300",
+    "description": "Manage expenses and monthly budgets. This focus app takes the proven Pomodoro technique and makes it even more practical for modern lifestyles. Instead of just setting a timer, it builds a complete environment for deep work, minimizing distractions and maximizing concentration. Users can create custom work and break intervals, track how many sessions they complete each day, and review detailed statistics about their focus habits over time. The design is minimal and calming, reducing cognitive load so you can focus entirely on the task at hand. Notifications gently let you know when to pause and when to resume, helping you maintain a healthy rhythm between work and rest.",
+    "size": 30,
+    "reviews": 290000,
+    "ratingAvg": 4.4,
+    "downloads": 3800000,
+    "ratings": [
+      { "name": "1 star", "count": 25 },
+      { "name": "2 star", "count": 50 },
+      { "name": "3 star", "count": 180 },
+      { "name": "4 star", "count": 360 },
+      { "name": "5 star", "count": 500 }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Study Buddy",
+    "companyName": "Hero.IO",
+    "image": "https://picsum.photos/seed/study-buddy/300/300",
+    "description": "Plan study sessions and track progress. This focus app takes the proven Pomodoro technique and makes it even more practical for modern lifestyles. Instead of just setting a timer, it builds a complete environment for deep work, minimizing distractions and maximizing concentration. Users can create custom work and break intervals, track how many sessions they complete each day, and review detailed statistics about their focus habits over time. The design is minimal and calming, reducing cognitive load so you can focus entirely on the task at hand. Notifications gently let you know when to pause and when to resume, helping you maintain a healthy rhythm between work and rest.",
+    "size": 34,
+    "reviews": 410000,
+    "ratingAvg": 4.6,
+    "downloads": 4900000,
+    "ratings": [
+      { "name": "1 star", "count": 18 },
+      { "name": "2 star", "count": 28 },
+      { "name": "3 star", "count": 130 },
+      { "name": "4 star", "count": 390 },
+      { "name": "5 star", "count": 720 }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Weather Now",
+    "companyName": "Hero.IO",
+    "image": "https://picsum.photos/seed/weather-now/300/300",
+    "description": "Real-time weather updates and forecasts. This focus app takes the proven Pomodoro technique and makes it even more practical for modern lifestyles. Instead of just setting a timer, it builds a complete environment for deep work, minimizing distractions and maximizing concentration. Users can create custom work and break intervals, track how many sessions they complete each day, and review detailed statistics about their focus habits over time. The design is minimal and calming, reducing cognitive load so you can focus entirely on the task at hand. Notifications gently let you know when to pause and when to resume, helping you maintain a healthy rhythm between work and rest.",
+    "size": 22,
+    "reviews": 520000,
+    "ratingAvg": 4.5,
+    "downloads": 7100000,
+    "ratings": [
+      { "name": "1 star", "count": 14 },
+      { "name": "2 star", "count": 26 },
+      { "name": "3 star", "count": 110 },
+      { "name": "4 star", "count": 420 },
+      { "name": "5 star", "count": 680 }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Daily Planner",
+    "companyName": "Hero.IO",
+    "image": "https://picsum.photos/seed/daily-planner/300/300",
+    "description": "Plan your day efficiently. This focus app takes the proven Pomodoro technique and makes it even more practical for modern lifestyles. Instead of just setting a timer, it builds a complete environment for deep work, minimizing distractions and maximizing concentration. Users can create custom work and break intervals, track how many sessions they complete each day, and review detailed statistics about their focus habits over time. The design is minimal and calming, reducing cognitive load so you can focus entirely on the task at hand. Notifications gently let you know when to pause and when to resume, helping you maintain a healthy rhythm between work and rest.",
+    "size": 27,
+    "reviews": 360000,
+    "ratingAvg": 4.6,
+    "downloads": 4500000,
+    "ratings": [
+      { "name": "1 star", "count": 16 },
+      { "name": "2 star", "count": 34 },
+      { "name": "3 star", "count": 120 },
+      { "name": "4 star", "count": 410 },
+      { "name": "5 star", "count": 650 }
+    ]
+  },
+
+  {
+    "id": 11,
+    "title": "Recipe Box",
+    "companyName": "Hero.IO",
+    "image": "https://picsum.photos/seed/recipe-box/300/300",
+    "description": "Save, organize, and discover delicious recipes. This focus app takes the proven Pomodoro technique and makes it even more practical for modern lifestyles. Instead of just setting a timer, it builds a complete environment for deep work, minimizing distractions and maximizing concentration. Users can create custom work and break intervals, track how many sessions they complete each day, and review detailed statistics about their focus habits over time. The design is minimal and calming, reducing cognitive load so you can focus entirely on the task at hand. Notifications gently let you know when to pause and when to resume, helping you maintain a healthy rhythm between work and rest.",
+    "size": 38,
+    "reviews": 470000,
+    "ratingAvg": 4.7,
+    "downloads": 5600000,
+    "ratings": [
+      { "name": "1 star", "count": 12 },
+      { "name": "2 star", "count": 24 },
+      { "name": "3 star", "count": 110 },
+      { "name": "4 star", "count": 420 },
+      { "name": "5 star", "count": 820 }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Language Leap",
+    "companyName": "Hero.IO",
+    "image": "https://picsum.photos/seed/language-leap/300/300",
+    "description": "Learn new languages with daily practice. This focus app takes the proven Pomodoro technique and makes it even more practical for modern lifestyles. Instead of just setting a timer, it builds a complete environment for deep work, minimizing distractions and maximizing concentration. Users can create custom work and break intervals, track how many sessions they complete each day, and review detailed statistics about their focus habits over time. The design is minimal and calming, reducing cognitive load so you can focus entirely on the task at hand. Notifications gently let you know when to pause and when to resume, helping you maintain a healthy rhythm between work and rest.",
+    "size": 42,
+    "reviews": 820000,
+    "ratingAvg": 4.8,
+    "downloads": 9800000,
+    "ratings": [
+      { "name": "1 star", "count": 8 },
+      { "name": "2 star", "count": 20 },
+      { "name": "3 star", "count": 95 },
+      { "name": "4 star", "count": 460 },
+      { "name": "5 star", "count": 1200 }
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Travel Mate",
+    "companyName": "Hero.IO",
+    "image": "https://picsum.photos/seed/travel-mate/300/300",
+    "description": "Plan trips, manage itineraries, and explore destinations. This focus app takes the proven Pomodoro technique and makes it even more practical for modern lifestyles. Instead of just setting a timer, it builds a complete environment for deep work, minimizing distractions and maximizing concentration. Users can create custom work and break intervals, track how many sessions they complete each day, and review detailed statistics about their focus habits over time. The design is minimal and calming, reducing cognitive load so you can focus entirely on the task at hand. Notifications gently let you know when to pause and when to resume, helping you maintain a healthy rhythm between work and rest.",
+    "size": 50,
+    "reviews": 390000,
+    "ratingAvg": 4.6,
+    "downloads": 4700000,
+    "ratings": [
+      { "name": "1 star", "count": 18 },
+      { "name": "2 star", "count": 36 },
+      { "name": "3 star", "count": 140 },
+      { "name": "4 star", "count": 380 },
+      { "name": "5 star", "count": 720 }
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Expense Snap",
+    "companyName": "Hero.IO",
+    "image": "https://picsum.photos/seed/expense-snap/300/300",
+    "description": "Snap receipts and track expenses effortlessly. This focus app takes the proven Pomodoro technique and makes it even more practical for modern lifestyles. Instead of just setting a timer, it builds a complete environment for deep work, minimizing distractions and maximizing concentration. Users can create custom work and break intervals, track how many sessions they complete each day, and review detailed statistics about their focus habits over time. The design is minimal and calming, reducing cognitive load so you can focus entirely on the task at hand. Notifications gently let you know when to pause and when to resume, helping you maintain a healthy rhythm between work and rest.",
+    "size": 29,
+    "reviews": 260000,
+    "ratingAvg": 4.4,
+    "downloads": 3400000,
+    "ratings": [
+      { "name": "1 star", "count": 22 },
+      { "name": "2 star", "count": 48 },
+      { "name": "3 star", "count": 170 },
+      { "name": "4 star", "count": 340 },
+      { "name": "5 star", "count": 520 }
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Habit Builder",
+    "companyName": "Hero.IO",
+    "image": "https://picsum.photos/seed/habit-builder/300/300",
+    "description": "Build positive habits and stay consistent. This focus app takes the proven Pomodoro technique and makes it even more practical for modern lifestyles. Instead of just setting a timer, it builds a complete environment for deep work, minimizing distractions and maximizing concentration. Users can create custom work and break intervals, track how many sessions they complete each day, and review detailed statistics about their focus habits over time. The design is minimal and calming, reducing cognitive load so you can focus entirely on the task at hand. Notifications gently let you know when to pause and when to resume, helping you maintain a healthy rhythm between work and rest.",
+    "size": 26,
+    "reviews": 540000,
+    "ratingAvg": 4.7,
+    "downloads": 6200000,
+    "ratings": [
+      { "name": "1 star", "count": 10 },
+      { "name": "2 star", "count": 22 },
+      { "name": "3 star", "count": 100 },
+      { "name": "4 star", "count": 430 },
+      { "name": "5 star", "count": 880 }
+    ]
+  },
+  {
+    "id": 16,
+    "title": "Photo Vault",
+    "companyName": "Hero.IO",
+    "image": "https://picsum.photos/seed/photo-vault/300/300",
+    "description": "Securely store and protect private photos. This focus app takes the proven Pomodoro technique and makes it even more practical for modern lifestyles. Instead of just setting a timer, it builds a complete environment for deep work, minimizing distractions and maximizing concentration. Users can create custom work and break intervals, track how many sessions they complete each day, and review detailed statistics about their focus habits over time. The design is minimal and calming, reducing cognitive load so you can focus entirely on the task at hand. Notifications gently let you know when to pause and when to resume, helping you maintain a healthy rhythm between work and rest.",
+    "size": 55,
+    "reviews": 310000,
+    "ratingAvg": 4.5,
+    "downloads": 4000000,
+    "ratings": [
+      { "name": "1 star", "count": 16 },
+      { "name": "2 star", "count": 30 },
+      { "name": "3 star", "count": 125 },
+      { "name": "4 star", "count": 360 },
+      { "name": "5 star", "count": 640 }
+    ]
+  },
+  {
+    "id": 17,
+    "title": "News Pulse",
+    "companyName": "Hero.IO",
+    "image": "https://picsum.photos/seed/news-pulse/300/300",
+    "description": "Breaking news and personalized headlines. This focus app takes the proven Pomodoro technique and makes it even more practical for modern lifestyles. Instead of just setting a timer, it builds a complete environment for deep work, minimizing distractions and maximizing concentration. Users can create custom work and break intervals, track how many sessions they complete each day, and review detailed statistics about their focus habits over time. The design is minimal and calming, reducing cognitive load so you can focus entirely on the task at hand. Notifications gently let you know when to pause and when to resume, helping you maintain a healthy rhythm between work and rest.",
+    "size": 24,
+    "reviews": 680000,
+    "ratingAvg": 4.6,
+    "downloads": 8200000,
+    "ratings": [
+      { "name": "1 star", "count": 14 },
+      { "name": "2 star", "count": 28 },
+      { "name": "3 star", "count": 135 },
+      { "name": "4 star", "count": 410 },
+      { "name": "5 star", "count": 900 }
+    ]
+  },
+  {
+    "id": 18,
+    "title": "Crypto Watch",
+    "companyName": "Hero.IO",
+    "image": "https://picsum.photos/seed/crypto-watch/300/300",
+    "description": "Track cryptocurrency prices in real time. This focus app takes the proven Pomodoro technique and makes it even more practical for modern lifestyles. Instead of just setting a timer, it builds a complete environment for deep work, minimizing distractions and maximizing concentration. Users can create custom work and break intervals, track how many sessions they complete each day, and review detailed statistics about their focus habits over time. The design is minimal and calming, reducing cognitive load so you can focus entirely on the task at hand. Notifications gently let you know when to pause and when to resume, helping you maintain a healthy rhythm between work and rest.",
+    "size": 33,
+    "reviews": 590000,
+    "ratingAvg": 4.5,
+    "downloads": 7600000,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 40 },
+      { "name": "3 star", "count": 160 },
+      { "name": "4 star", "count": 390 },
+      { "name": "5 star", "count": 700 }
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Class Room",
+    "companyName": "Hero.IO",
+    "image": "https://picsum.photos/seed/class-room/300/300",
+    "description": "Online learning and virtual classroom management. This focus app takes the proven Pomodoro technique and makes it even more practical for modern lifestyles. Instead of just setting a timer, it builds a complete environment for deep work, minimizing distractions and maximizing concentration. Users can create custom work and break intervals, track how many sessions they complete each day, and review detailed statistics about their focus habits over time. The design is minimal and calming, reducing cognitive load so you can focus entirely on the task at hand. Notifications gently let you know when to pause and when to resume, helping you maintain a healthy rhythm between work and rest.",
+    "size": 48,
+    "reviews": 730000,
+    "ratingAvg": 4.7,
+    "downloads": 8800000,
+    "ratings": [
+      { "name": "1 star", "count": 9 },
+      { "name": "2 star", "count": 21 },
+      { "name": "3 star", "count": 105 },
+      { "name": "4 star", "count": 440 },
+      { "name": "5 star", "count": 1050 }
+    ]
+  },
+  {
+    "id": 20,
+    "title": "Music Flow",
+    "companyName": "Hero.IO",
+    "image": "https://picsum.photos/seed/music-flow/300/300",
+    "description": "Stream music and create custom playlists. This focus app takes the proven Pomodoro technique and makes it even more practical for modern lifestyles. Instead of just setting a timer, it builds a complete environment for deep work, minimizing distractions and maximizing concentration. Users can create custom work and break intervals, track how many sessions they complete each day, and review detailed statistics about their focus habits over time. The design is minimal and calming, reducing cognitive load so you can focus entirely on the task at hand. Notifications gently let you know when to pause and when to resume, helping you maintain a healthy rhythm between work and rest.",
+    "size": 60,
+    "reviews": 910000,
+    "ratingAvg": 4.8,
+    "downloads": 12000000,
+    "ratings": [
+      { "name": "1 star", "count": 6 },
+      { "name": "2 star", "count": 18 },
+      { "name": "3 star", "count": 90 },
+      { "name": "4 star", "count": 500 },
+      { "name": "5 star", "count": 1400 }
+    ]
+  }
+]
