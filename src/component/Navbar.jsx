@@ -25,7 +25,7 @@ export default function Navbar() {
                     <NavLink
                         to="/"
                         className={({ isActive }) =>
-                            isActive ? "text-purple-600" : "text-gray-600 underline-offset-0"
+                            isActive ? "text-purple-600 border-b-2 " : "text-gray-600 underline-offset-0"
                         }
                     >
                         Home
@@ -34,7 +34,7 @@ export default function Navbar() {
                     <NavLink
                         to="/all-apps"
                         className={({ isActive }) =>
-                            isActive ? "text-purple-600" : "text-gray-600"
+                            isActive ? "text-purple-600 border-b-2" : "text-gray-600"
                         }
                     >
                         Apps
@@ -43,7 +43,7 @@ export default function Navbar() {
                     <NavLink
                         to="/installation"
                         className={({ isActive }) =>
-                            isActive ? "text-purple-600" : "text-gray-600"
+                            isActive ? "text-purple-600 border-b-2" : "text-gray-600"
                         }
                     >
                         Installation
