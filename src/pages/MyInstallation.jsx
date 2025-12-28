@@ -60,10 +60,10 @@ export default function MyInstallation() {
         <select
           value={sortOrder}
           onChange={(e) => setSortOrder(e.target.value)}
-          className="border rounded px-3 py-2"
+          className="border border-gray-300 rounded px-3 py-2"
         >
-          <option value="high">Size: High to Low</option>
-          <option value="low">Size: Low to High</option>
+          <option value="high">Sorted By Size</option>
+          <option value="low">Sorted By Size</option>
         </select>
       </div>
 
@@ -85,14 +85,10 @@ export default function MyInstallation() {
                 <h3 className="text-left mt-3 font-semibold text-lg text-purple-600">
                   {app.title}
                 </h3>
-
-                {/* <p className="text-sm text-gray-500 mt-1 gap-3">
-                  ⭐ {app.ratingAvg}   ⬇ {app.downloads / 1_000_000}M  📦 {app.size} MB
-                </p> */}
                 <p className="flex text-sm text-gray-500 mt-1 gap-3">
-                 <span className="flex items-center gap-1"><FaStar className="text-amber-500 "/>  {app.ratingAvg} </span>   
-                 <span className="flex items-center gap-1"><MdOutlineFileDownload className="text-green-500 "/> {app.downloads / 1_000_000}M </span>
-                <span>{app.size} MB</span>
+                  <span className="flex items-center gap-1"><FaStar className="text-amber-500 " />  {app.ratingAvg} </span>
+                  <span className="flex items-center gap-1"><MdOutlineFileDownload className="text-green-500 " /> {app.downloads / 1_000_000}M </span>
+                  <span>{app.size} MB</span>
                 </p>
 
               </div>
@@ -100,7 +96,7 @@ export default function MyInstallation() {
 
             <button
               onClick={() => handleUninstall(app.id)}
-              className="cursor-pointer h-12 mt-4 px-2 bg-green-500 text-white py-2 rounded-lg hover:bg-red-600 transition"
+              className="cursor-pointer h-12 mt-4 px-4 bg-green-500 text-white py-2 rounded-lg hover:bg-red-600 transition"
             >
               Uninstall
             </button>

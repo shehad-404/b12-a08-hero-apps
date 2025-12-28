@@ -28,7 +28,7 @@ function Home() {
       {/* Banner / Hero */}
       <section className="px-8 text-center pt-20">
         <h1 className="text-4xl font-bold">
-          We Build <span className="text-purple-600">Productive</span> Apps
+          We Build <br /> <span className="text-purple-600">Productive</span> Apps
         </h1>
         <p className="mt-4 text-gray-500">
           Innovative apps to simplify everyday life

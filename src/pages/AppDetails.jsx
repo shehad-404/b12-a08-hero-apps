@@ -39,7 +39,7 @@ export default function AppDetails() {
     <div className="px-20 py-10 bg-[#F5F5F5]">
       {/* ================= HEADER ================= */}
       {/* <div className="grid md:grid-cols-2 items-center border-b border-gray-300 pb-10"> */}
-      <div className="grid md:grid-cols-2 items-center border-b border-gray-300 pb-10">
+      <div className="flex flex-2 justify-baseline gap-10 items-center border-b border-gray-300 pb-10">
         {/* App Image */}
         <img
           src={app.image}
