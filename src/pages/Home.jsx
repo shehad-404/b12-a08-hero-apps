@@ -107,7 +107,7 @@ function Home() {
           <div className="flex justify-center pb-20">
             <button
               onClick={() => setShowAll(!showAll)}
-              className="px-6 py-3 rounded-lg bg-purple-600 text-white font-medium hover:bg-purple-700 transition"
+              className="cursor-pointer px-6 py-3 rounded-lg bg-purple-600 text-white font-medium hover:bg-purple-700 transition"
             >
               {showAll ? "Show Less" : "Show All"}
             </button>
